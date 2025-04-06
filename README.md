@@ -23,4 +23,4 @@ The app uses a dataset in a `cards.csv` file, which includes:
 ### 1. **Frontend (UI)**
 - A simple HTML form lets users upload an image of a playing card.
 - The form sends a POST request to the Django backend with the uploaded image file.
-- After submission, the page reloads and displays the predicted card label directly below the form using Django template rendering.
+- After submission, the page reloads and shows the predicted card label in a popup alert using JavaScript.
